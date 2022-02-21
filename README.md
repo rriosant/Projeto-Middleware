@@ -19,7 +19,7 @@ int main(void)
 
   do
   {  
-      //faz a leitura dos caracter no arquivo apontado por pont_arq
+      //faz a leitura dos caracteres no arquivo apontado por pont_arq
       c = fgetc(pont_arq);//chamada pelo SO
       
       //exibe o caracter lido na tela
