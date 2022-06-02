@@ -1,0 +1,11 @@
+Podemos corrigir nosso bug anterior condensando dois bloqueios em um e agrupando adequadamente as duas funções.
+
+
+Antes de falarmos sobre simultaneidade no Rust, primeiro preciso apresentar os conceitos básicos de encerramentos. Ao contrário do OCaml, o Rust tem a restrição de que, por padrão, as funções só podem ocorrer no nível superior. Por exemplo:
+fn main() {
+  let x = 1;
+  fn printx() { println!("{}", x); }
+  printx();
+}
+
+de maneira recursiva, o main primeiro desconta do metodo descontar e depois adiciona com o dobro do metodo depositar ja que o numero de thread equivale a 1 cliente, duas threads 2 clinetes, e assim por diante, o fato que é se pegarmos 32 clientes, o resultado sera 1540 
