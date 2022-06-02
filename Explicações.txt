@@ -1,0 +1,9 @@
+1- feito 
+A conta pode receber mais de uma transferencia simultanea, sendo ela inciada pelo numero de threads especificado por N, nisso a gente só responde a 5 também
+2- feito
+A conta que recebeu pode enviar para varias contas simultanea, só preciso mudar o fator de dividir a conta para o numero desejado 
+3 - feito
+Eu posso provar que não podemos enviar dinheiro, quando o que o cliente esta pedindo é maior que o dinheiro na conta, basicamente não efetuando a transção, se depositar > que retirar, a transação  é completa, porém, quando ocorre o oposto, no caso de retirar for maior que o depositar não ocorre a transação
+4- se nós conseguimos tirar o dineheiro da conta recebida e mandar para duas contas no caso dois clientes de forma igual observando assim o valor de mil reais e retirando 250 reias para dois clientes, o valor total sobrado seria de 500 reais 
+5- feito 
+As transações simultaneas podem ser baseadas de acordo com o N sitado acima, logo, se N for igual a 100, alem de fazer 100 transações simultaneas, como são criadas 100 diferentes threadas para cada transação 
